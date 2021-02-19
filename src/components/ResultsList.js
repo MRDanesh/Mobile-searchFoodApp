@@ -6,7 +6,7 @@ import ResultsDetail from './ResultsDetail';
 
 const ResultsList = ({title, results, navigation}) => {
     if (!results.length){
-        return null;
+        return null
     }
     return (
         <View style={styles.container}>
